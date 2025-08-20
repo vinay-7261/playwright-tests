@@ -1,3 +1,4 @@
+
 import sys
 from playwright.sync_api import sync_playwright
 emails = [
@@ -35,3 +36,5 @@ def run_test(url):
 
 user_url = input("plase entre url: ")
 run_test(user_url)
+
+    
